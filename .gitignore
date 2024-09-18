@@ -1,0 +1,5 @@
+CV_final
+*.pdf
+*.bbl
+*.synctex.gz
+.DS_Store

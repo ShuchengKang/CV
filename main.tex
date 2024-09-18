@@ -1,0 +1,72 @@
+%______________________________________________________________________________________________________________________
+% @brief    LaTeX2e Resume for Heng Yang
+\documentclass[margin]{resume}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage[urlcolor=blue,linkcolor=blue,hidelinks,allcolors=blue,colorlinks=true]{hyperref}
+\newcommand{\red}[1]{{\color{red}#1}}
+\newcommand{\magenta}[1]{\color{magenta}#1}
+\newcommand{\royalpurple}[1]{\color{Blue}#1}
+\newcommand{\blue}[1]{\color{Blue}#1}
+% \usepackage[letter, total={6in, 8in}]{geometry}
+% \renewcommand{\namefont}{}
+
+\newcommand{\linkToPdf}[1]{\href{#1}{{(pdf)}}}
+\newcommand{\linkToPpt}[1]{\href{#1}{{(ppt)}}}
+\newcommand{\linkToCode}[1]{\href{#1}{{(code)}}}
+\newcommand{\linkToWeb}[1]{\href{#1}{{(web)}}}
+\newcommand{\linkToVideo}[1]{\href{#1}{{(video)}}}
+\newcommand{\linkToMedia}[1]{\href{#1}{{(media)}}}
+\newcommand{\linkToNews}[1]{\href{#1}{{(news)}}}
+\newcommand{\linkToSlides}[1]{\href{#1}{{(slides)}}}
+
+\newcommand{\vquad}{\vspace{-2mm}\quad}
+%______________________________________________________________________________________________________________________
+\begin{document}
+
+\name{\Huge \blue{Shucheng Kang} \vspace{4mm}}
+\address{{\bf Ph.D. Student in Electrical Engineering} \\
+         School of Engineering and Applied Sciences \\
+         Harvard University \\
+         }
+
+\address{
+    Email: \texttt{\url{skang1@g.harvard.edu}} \\
+    Homepage: \texttt{\url{https://shuchengkang.github.io}} \\
+    % Group: \texttt{\url{https://computationalrobotics.seas.harvard.edu/}} \\
+    Phone: 617-201-6782 \\
+    \href{https://x.com/ShuchengK}{{Twitter}} $\mid$ 
+    \href{https://www.linkedin.com/in/shucheng-kang-564539291/}{{LinkedIn}} $\mid$ 
+    \href{{https://scholar.google.com/citations?user=PLZtYgEAAAAJ}}{{Scholar}}
+}
+\begin{resume}
+    %__________________________________________________________________________________________________________________
+    % Contact Information
+    % \section{\mysidestyle Contact}
+    % Email: \hfill \texttt{\blue{hankyang@seas.harvard.edu}}
+    % \vspace{1mm}\\%
+    % Homepage: \hfill \texttt{\blue{https://hankyang94.github.io/}}
+    % \vspace{1mm}\\%
+    % Phone: \hfill \texttt{617-803-9383}
+    % \vspace{0mm}\\ \vspace{-4.5mm}%
+
+\input{education.tex}   
+\input{research_interests.tex}
+\input{research_highlights.tex}
+\input{talk.tex}
+\input{publications.tex}
+\input{teaching.tex}
+\input{service.tex}
+\input{awards.tex}
+
+\emph{Last update: \today}
+
+
+%______________________________________________________________________________________________________________________
+\end{resume}
+\end{document}
+
+
+%______________________________________________________________________________________________________________________
+% EOF
+
