@@ -1,5 +1,6 @@
 CV_final
 *.pdf
+!CV_ShuchengKang.pdf
 *.bbl
 *.synctex.gz
 .DS_Store
